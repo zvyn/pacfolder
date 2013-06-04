@@ -14,8 +14,9 @@ md5sums=('SKIP')
 
 pkgver() {
   cd $_gitname
-  # Use the tag of the last commit
-  git describe --always | sed 's|-|.|g'
+  ## Use the tag of the last commit
+  # git describe --always | sed 's|-|.|g'
+  echo $(git rev-list --count HEAD).$(git rev-parse --short HEAD)
 }
 
 package() {
