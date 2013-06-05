@@ -7,7 +7,7 @@ pkgdesc="Programm to generate a folder with subfolders for each package\
 arch=('any')
 url="https://github.com/zvynar/pacfolder"
 license=('MIT')
-depends=('pacman' 'python3')
+depends=('pacman' 'python<=4')
 makedepends=('git')
 source=('git://github.com/zvynar/pacfolder.git')
 md5sums=('SKIP')
