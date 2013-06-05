@@ -1,6 +1,6 @@
 pkgname=pacfolder
 _gitname=pacfolder
-pkgver=6.84bb0fc
+pkgver=0
 pkgrel=1
 pkgdesc="Programm to generate a folder with subfolders for each package\
  managed by pacman containing symlinks to all files belonging to that package."
